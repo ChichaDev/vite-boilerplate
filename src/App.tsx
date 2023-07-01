@@ -12,7 +12,6 @@ import { useEffect } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from './assets/vite.svg';
 import Proud from './components/Space/OtherTest/Proud';
-import { Profile } from './components/Space/Profile';
 
 import type { User } from './typecard';
 import type { FC } from 'react';
@@ -38,7 +37,6 @@ function App() {
   return (
     <>
       <div>
-        <Profile />
         <Proud />
         <a href='https://vitejs.dev' target='_blank'>
           <img src={viteLogo} className='logo' alt='Vite logo' />
