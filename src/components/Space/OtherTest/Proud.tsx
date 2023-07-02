@@ -1,5 +1,9 @@
 function Proud() {
-  return <></>;
+  return (
+    <>
+      <div>Text</div>
+    </>
+  );
 }
 
 export default Proud;
