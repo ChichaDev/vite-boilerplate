@@ -10,7 +10,7 @@
     "stylelint": "stylelint \"**/*.{css,sass,scss}\" --fix",
     "lint": "eslint --ext .ts,.tsx src --max-warnings 0 --fix",
     "lint:check": "eslint --ext .ts,.tsx src",
-    "lint-staged": "lint-staged"
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -42,10 +42,5 @@
     "stylelint-scss": "^5.0.1",
     "typescript": "^5.0.2",
     "vite": "^4.3.9"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint-staged"
-    }
   }
 }
