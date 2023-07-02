@@ -10,6 +10,7 @@
     "stylelint": "stylelint \"**/*.{css,sass,scss}\" --fix",
     "lint": "eslint --ext .ts,.tsx src --max-warnings 0 --fix",
     "lint:check": "eslint --ext .ts,.tsx src",
+    "lint-staged": "lint-staged",
     "prepare": "husky install"
   },
   "dependencies": {
