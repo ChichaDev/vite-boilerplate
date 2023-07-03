@@ -1,35 +1,14 @@
-import {
-  useState,
-  useCallback,
-  useContext,
-  useMemo,
-  useRef,
-  useDebugValue,
-  useLayoutEffect
-} from 'react';
+import { useState } from 'react';
 import { useEffect } from 'react';
 
 import reactLogo from './assets/react.svg';
 import Proud from './components/Space/OtherTest/Proud';
 
-import type { User } from './typecard';
-import type { FC } from 'react';
 import './App.css';
 
-const Card: FC = () => <div>text</div>;
-const obj: User = {
-  name: 'Ivan',
-  age: 25
-};
-
 function App() {
-  const bar = (a: number) => a === 0;
-
-  [1, 2, 3].map((x) => x * x);
-
   const [count, setCount] = useState(0);
 
-  const foo = () => 0;
   useEffect(() => {
     setCount(1);
   }, []);
